@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="resolve merge conflict">
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/AbstractFactoryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/ElectricCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/ElectricFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/ElectricToyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/PetrolCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/PetrolFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/AbstractFactory/PetrolToyota.java" afterDir="false" />
+    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="AbstractFactory code">
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Adapter/AdapterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Adapter/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Adapter/BicycleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Adapter/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Adapter/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Adapter/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/f.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,21 +52,38 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\Design_Pattern\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="creational_design_patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="structural_design_pattern.Adapter" />
       <recent name="creational_design_patterns.AbstractFactory" />
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryMain">
+  <component name="RunManager" selected="Application.AdapterMain">
     <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational_design_patterns.AbstractFactory.AbstractFactoryMain" />
       <module name="Design_Pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="creational_design_patterns.AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_design_pattern.Adapter.AdapterMain" />
+      <module name="Design_Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural_design_pattern.Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.AbstractFactoryMain" />
         <item itemvalue="Application.AnimalMain" />
       </list>
@@ -107,7 +122,8 @@
       <updated>1679508925437</updated>
       <workItem from="1679508927913" duration="454000" />
       <workItem from="1679545802263" duration="2218000" />
-      <workItem from="1679551191184" duration="671000" />
+      <workItem from="1679551191184" duration="967000" />
+      <workItem from="1679565052004" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="Factory method with enum">
       <created>1679547690599</created>
@@ -130,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679548391026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AbstractFactory code">
+      <created>1679552144337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679552144337</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +174,18 @@
     <MESSAGE value="Factory method with enum" />
     <MESSAGE value="merge conflict" />
     <MESSAGE value="resolve merge conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve merge conflict" />
+    <MESSAGE value="AbstractFactory code" />
+    <option name="LAST_COMMIT_MESSAGE" value="AbstractFactory code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/structural_design_pattern/Adapter/Bus.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
