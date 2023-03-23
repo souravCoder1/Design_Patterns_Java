@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design_Pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/AnimalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/AnimalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Factory/WithEnum/Tiger.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="Factory method with enum" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,8 +75,16 @@
       <option name="presentableId" value="Default" />
       <updated>1679508925437</updated>
       <workItem from="1679508927913" duration="454000" />
-      <workItem from="1679545802263" duration="1815000" />
+      <workItem from="1679545802263" duration="2218000" />
     </task>
+    <task id="LOCAL-00001" summary="Factory method with enum">
+      <created>1679547690599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679547690599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Factory method with enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory method with enum" />
   </component>
 </project>
