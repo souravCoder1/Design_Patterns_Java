@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="code">
-      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/RectangleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/open_close/Example1/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.Demo1">
     <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational_design_patterns.AbstractFactory.AbstractFactoryMain" />
       <module name="Design_Pattern" />
@@ -122,8 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solid.Liskov_Substitution.Example1.Demo1" />
+      <module name="Design_Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solid.Liskov_Substitution.Example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.AbstractFactoryMain" />
@@ -148,7 +163,8 @@
       <workItem from="1684647844901" duration="3192000" />
       <workItem from="1684651958442" duration="798000" />
       <workItem from="1684676643850" duration="17000" />
-      <workItem from="1684676825466" duration="623000" />
+      <workItem from="1684676825466" duration="657000" />
+      <workItem from="1684693157894" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="Factory method with enum">
       <created>1679547690599</created>
@@ -199,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684652933684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="code">
+      <created>1684677624639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684677624639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
