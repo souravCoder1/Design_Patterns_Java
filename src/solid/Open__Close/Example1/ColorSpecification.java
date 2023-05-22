@@ -1,4 +1,4 @@
-package solid.open_close.Example1;
+package solid.Open__Close.Example1;
 
 public class ColorSpecification implements Specification<Product> {
 

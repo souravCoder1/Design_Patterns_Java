@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="code">
-      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/RectangleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/Liskov_Substitution/Example1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/Document.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/JustAPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/MultiFunctionPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/OldFashionedPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/AndSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/AndSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/BetterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/BetterFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/ColorSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/ColorSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/ProductFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/ProductFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/SizeSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/SizeSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solid/open_close/Example1/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Open__Close/Example1/Specification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +177,8 @@
       <workItem from="1684651958442" duration="798000" />
       <workItem from="1684676643850" duration="17000" />
       <workItem from="1684676825466" duration="657000" />
-      <workItem from="1684693157894" duration="1629000" />
+      <workItem from="1684693157894" duration="1699000" />
+      <workItem from="1684776465936" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="Factory method with enum">
       <created>1679547690599</created>
@@ -222,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684677624639</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="code">
+      <created>1684694977026</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684694977026</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
