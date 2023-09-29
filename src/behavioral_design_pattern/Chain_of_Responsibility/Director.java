@@ -1,6 +1,7 @@
 package behavioral_design_pattern.Chain_of_Responsibility;
 
-import com.coffeepoweredcrew.chainofresponsibility.LeaveApplication.Type;
+import static behavioral_design_pattern.Chain_of_Responsibility.LeaveApplication.Type;
+
 //A concrete handler
 public class Director extends Employee {
 
