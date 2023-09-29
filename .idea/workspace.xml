@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="code">
-      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/MultiFunctionMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/MuntiFunctionDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/PhotoCopier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/OperationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Substraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/Interface_Segregation/Document.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/Interface_Segregation/JustAPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/JustAPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solid/Interface_Segregation/OldFashionedPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solid/Interface_Segregation/OldFashionedPrinter.java" afterDir="false" />
     </list>
     <list id="c4b34839-a74d-4783-9abf-4d7819ea89e5" name="Changes by ladis" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2NNeN3g9AXwPAueBBAY8gXVOYFC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -70,12 +74,13 @@
       <recent name="creational_design_patterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="behavioral_design_pattern.Strategy" />
       <recent name="structural_design_pattern.Adapter" />
       <recent name="creational_design_patterns.AbstractFactory" />
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.App">
     <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational_design_patterns.AbstractFactory.AbstractFactoryMain" />
       <module name="Design_Pattern" />
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational_design_patterns.Factory.WithEnum.AnimalMain" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.App" />
       <module name="Design_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational_design_patterns.Factory.WithEnum.*" />
+          <option name="PATTERN" value="behavioral_design_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.AbstractFactoryMain" />
-        <item itemvalue="Application.AnimalMain" />
       </list>
     </recent_temporary>
   </component>

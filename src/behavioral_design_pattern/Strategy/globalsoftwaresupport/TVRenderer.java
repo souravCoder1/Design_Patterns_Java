@@ -1,0 +1,9 @@
+package behavioral_design_pattern.Strategy.globalsoftwaresupport;
+
+public class TVRenderer implements Renderer {
+
+	@Override
+	public void showImage() {
+		System.out.println("Showing an image on TV...");
+	}
+}

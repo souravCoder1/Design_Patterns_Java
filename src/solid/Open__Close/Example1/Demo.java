@@ -9,8 +9,7 @@ public class Demo {
         Product tree =  new Product("Tree", Color.GREEN, Size.LARGE);
         Product house =  new Product("House", Color.BLUE, Size.LARGE);
 
-        List<Product> productList = List.of(apple, tree, house
-        );
+        List<Product> productList = List.of(apple, tree, house);
         ProductFilter productFilter = new ProductFilter();
 
         System.out.println("Green Products (Old):");
