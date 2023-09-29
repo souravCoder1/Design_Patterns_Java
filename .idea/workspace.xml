@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="code">
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/OperationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/Substraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="Strategy Pattern">
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Template/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Template/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Template/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Template/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral_design_pattern/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy/App.java" afterDir="false" />
     </list>
     <list id="c4b34839-a74d-4783-9abf-4d7819ea89e5" name="Changes by ladis" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,32 +36,43 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2NNeN3g9AXwPAueBBAY8gXVOYFC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/spal90/Downloads/Intellij/Design_Patterns_Java/src/behavioral_design_pattern/Template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="creational_design_patterns.Factory.WithEnum" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/behavioral_design_pattern/Template" />
+      <recent name="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\Design_Pattern\src" />
@@ -80,20 +88,7 @@
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational_design_patterns.AbstractFactory.AbstractFactoryMain" />
-      <module name="Design_Pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational_design_patterns.AbstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.behavioral_design_pattern.Template.App">
     <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural_design_pattern.Adapter.AdapterMain" />
       <module name="Design_Pattern" />
@@ -108,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.App" />
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.Strategy.App" />
       <module name="Design_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral_design_pattern.*" />
+          <option name="PATTERN" value="behavioral_design_pattern.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="behavioral_design_pattern.Template.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.Template.App" />
+      <module name="Design_Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral_design_pattern.Template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioral_design_pattern.Template.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.AdapterMain" />
-        <item itemvalue="Application.AbstractFactoryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1684778419373</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Strategy Pattern">
+      <option name="closed" value="true" />
+      <created>1695981466226</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695981466226</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +291,8 @@
     <MESSAGE value="resolve merge conflict" />
     <MESSAGE value="AbstractFactory code" />
     <MESSAGE value="code" />
-    <option name="LAST_COMMIT_MESSAGE" value="code" />
+    <MESSAGE value="Strategy Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

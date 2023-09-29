@@ -1,4 +1,4 @@
-package behavioral_design_pattern;
+package behavioral_design_pattern.Strategy;
 
 import behavioral_design_pattern.Strategy.Division;
 import behavioral_design_pattern.Strategy.OperationManager;
