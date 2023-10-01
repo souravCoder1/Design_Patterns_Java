@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="Adapter design pattern">
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Cloning/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Cloning/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Cloning/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Prototype/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Prototype/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Prototype/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="Prototype design pattern - Cloneable" />
     <list id="c4b34839-a74d-4783-9abf-4d7819ea89e5" name="Changes by ladis" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.creational_design_patterns.Prototype.Cloning.Demo">
+  <component name="RunManager" selected="Application.ClonableDemo">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral_design_pattern.Strategy.App" />
       <module name="Design_Pattern" />
@@ -105,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solid.open_close.Example1.Demo" />
+    <configuration name="ClonableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational_design_patterns.Prototype.Cloning.ClonableDemo" />
       <module name="Design_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solid.open_close.Example1.*" />
+          <option name="PATTERN" value="creational_design_patterns.Prototype.Cloning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClonableDemo" />
         <item itemvalue="Application.creational_design_patterns.Prototype.Cloning.Demo" />
         <item itemvalue="Application.behavioral_design_pattern.Template.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +184,7 @@
       <workItem from="1684921970142" duration="3000" />
       <workItem from="1685106420639" duration="675000" />
       <workItem from="1696144658486" duration="179000" />
-      <workItem from="1696150981212" duration="1415000" />
+      <workItem from="1696150981212" duration="1870000" />
     </task>
     <task id="LOCAL-00001" summary="Factory method with enum">
       <created>1679547690599</created>
@@ -281,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695985772693</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Prototype design pattern - Cloneable">
+      <created>1696153494527</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696153494527</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +304,8 @@
     <MESSAGE value="code" />
     <MESSAGE value="Strategy Pattern" />
     <MESSAGE value="Template Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template Pattern" />
+    <MESSAGE value="Prototype design pattern - Cloneable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype design pattern - Cloneable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

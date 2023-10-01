@@ -2,6 +2,7 @@ package creational_design_patterns.Prototype.Cloning;
 
 import java.util.Arrays;
 
+// Cloneable is a marker interface
 public class Person implements Cloneable {
     public String[] names;
     public Address address;
@@ -19,11 +20,13 @@ public class Person implements Cloneable {
                 '}';
     }
 
+    // base class clone() is protected
     // deep copy
     @Override
     public Object clone() throws CloneNotSupportedException {
         return new Person(
-                names.clone(),
+                // clone() creates a shallow copy!
+                /*names */ names.clone(),
                 (Address) address.clone()
         );
     }

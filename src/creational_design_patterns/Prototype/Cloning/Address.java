@@ -17,6 +17,8 @@ public class Address implements Cloneable {
                 '}';
     }
 
+
+    // base class clone() is protected
     // deep copy
     @Override
     public Object clone() throws CloneNotSupportedException {
