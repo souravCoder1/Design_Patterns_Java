@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="Prototype design pattern - CopyConstructorDemo">
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Serializable/CopyThroughSerializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational_design_patterns/Prototype/Serializable/Foo.java" afterDir="false" />
+    <list default="true" id="2ea929d0-2ab1-456e-b720-70a34d78ac35" name="Changes" comment="Prototype design pattern - CopyThroughSerializationDemo">
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/EmailBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/EmailFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/HalloweenStationary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/Mailer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/OrderEmailTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/Stationary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/StationaryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural_design_pattern/Facade/email/TemplateFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design_Pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design_Pattern.iml" afterDir="false" />
     </list>
     <list id="c4b34839-a74d-4783-9abf-4d7819ea89e5" name="Changes by ladis" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +60,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HP/Desktop/Ashok Thread/commons-lang3-3.12.0.jar",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/Design_Pattern/src/structural_design_pattern/Facade",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -67,6 +78,7 @@
       <recent name="creational_design_patterns.Factory.WithEnum" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\Design_Pattern\src\structural_design_pattern\Facade" />
       <recent name="C:\Users\HP\IdeaProjects\Design_Pattern\src\creational_design_patterns\Prototype" />
       <recent name="$PROJECT_DIR$/src/behavioral_design_pattern/Template" />
       <recent name="$PROJECT_DIR$/src/behavioral_design_pattern/Strategy" />
@@ -188,7 +200,9 @@
       <workItem from="1684921970142" duration="3000" />
       <workItem from="1685106420639" duration="675000" />
       <workItem from="1696144658486" duration="179000" />
-      <workItem from="1696150981212" duration="3522000" />
+      <workItem from="1696150981212" duration="3833000" />
+      <workItem from="1696173851409" duration="1954000" />
+      <workItem from="1696178527076" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="Factory method with enum">
       <created>1679547690599</created>
@@ -297,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696154271537</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Prototype design pattern - CopyThroughSerializationDemo">
+      <created>1696156223500</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696156223500</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +345,8 @@
     <MESSAGE value="Template Pattern" />
     <MESSAGE value="Prototype design pattern - Cloneable" />
     <MESSAGE value="Prototype design pattern - CopyConstructorDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype design pattern - CopyConstructorDemo" />
+    <MESSAGE value="Prototype design pattern - CopyThroughSerializationDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype design pattern - CopyThroughSerializationDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
